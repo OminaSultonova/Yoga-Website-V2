@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoga Website</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Boxicons Link -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Css Link -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Boxicon Link -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Favicon img -->
+  <link rel="icon" type="image/png" href="./Assets/yoga_place_favicon.png">  
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <h2>Yoga Place</h2>
+      </a>
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link px-3 " href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  px-3" href="classes.html">Classes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  px-3" href="price.html">Price</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active px-3"  href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- Hero-section -->
+  <section class="hero-section">
+   <div class="hero-image-container">
+    <img src="./Assets/contactB.png" alt="image">
+<div class="overlay"></div>
+   </div>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+        <h1>Contact</h1>
+        <p>Your journey to healhty body and mind. </p>
+    </div>
+  </section>
+<!-- Main Body Section -->
+<section class="main-section">
+  <div class="welcome-part">
+    <h1>Get in Touch</b></h1>
+      <p>Whether you have inquiries about our classes, want to discuss
+        membership options,<br> or simply share your thoughts, we're here to connect. 
+        <br><b>Feel free to reach out to us using the contact information below. </b></p>
+  </div>
+  <!--Contact form -->
+        <div class="contact-container">
+            <div class="form-container">
+                <h4 class="sub-header">Contact Us</h4>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <textarea id="subject" name="subject" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                </form>
+            </div>
+            <div class="background-image"></div>
+        </div>
+        <div class="google-map">
+            <h4 class="sub-header">Location</h4>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.791941342677!2d103.84455373930147!3d1.2996435617408237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da196c9a6a1287%3A0xedd9f5ada56dfb14!2sYoga%20Movement%20Orchard%20Flagship!5e0!3m2!1sen!2ssg!4v1708239676067!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+  
+      
+ <!-- Memebership part -->
+  <div class="banner">
+      <div class="banner-content">
+          <h1 class="banner-title">Join us today</h1>
+          <p class="banner-text"> Become our member and enjoy discounts % and special perks.</p>
+          <a href="#" class="btn btn-danger">Sign up now</a>
+      </div>
+  </div>
+  
+<!-- Footer part -->
+<section>
+  <footer class="py-4 mt-5 text-center">
+   
+        <div class="social-icons">
+            <a class="nav-link" href="#"><i class='bx bxl-instagram'></i></a>
+            <a class="nav-link" href="#"><i class='bx bxl-facebook' ></i></a>
+            <a class="nav-link" href="#"><i class='bx bxl-tiktok' ></i></a>
+          </div>
+          <p>123 Orchard Street, Singapore 100008</p>
+          <p class="copyright">&copy; 2024 Yoga Place | All rights reserved.</p>
+   
+  </footer>
+</section>
+  
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script></body>
+</html>
